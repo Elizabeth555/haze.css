@@ -62,6 +62,11 @@ label,blockquote,article,figure,section {
 	margin:0;padding:0;border:0;
 }
 
+/* Removed unwanted link decoration. */
+
+a, a:link, a:active, a:visited {text-decoration:none};
+a:hover {text-decoration:underline}
+
 /* Buttons are now clickable. */
 
 button,
@@ -129,6 +134,12 @@ textarea {
 .haze-9, .haze-10, .haze-11, .haze-12 {
 	margin-left:10px;margin-right:10px;margin-bottom:15px
 }
+
+/* Handy classes for floating divs. */
+
+.left {float:left}
+.right {float:right}
+
 
 
 
