@@ -7,11 +7,13 @@ that I use to make sites look mega.
 
 ====
 
-* Version 1.0 *
+Version 1.0
+====
 
 - First release! Wooo!
 
+SECTION 1 - Default Styles
 ====
 
-* SECTION 1 - Default Styles
-* SECTION 2 - Haze.Grid | A Grid That Makes Sense
+SECTION 2 - Haze.Grid | A Grid That Makes Sense
+====
