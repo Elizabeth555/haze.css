@@ -3,8 +3,9 @@
 
 /*-----------------------------------------------------------------
 
-Haze is a set of rules, CSS best practices, subtle styles and other
-enjoyable tidbits that I use to make sites look mega.
+Haze is a lean, rapid CSS framework that makes sense. It's set of 
+rules, CSS best practices, subtle styles and other enjoyable tidbits
+that I use to make sites look mega.
 
 * Version 1.0 *
 
@@ -69,6 +70,8 @@ input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
+  vertical-align: middle;
+  text-align:center;
 }
 
 /* Checkboxes are now spaced properly. */
