@@ -1,0 +1,139 @@
+/*--\	 /	     HAZE		\	 /----
+-----\/\/	by Ben Buffone	 \/\/---*/
+
+/*-----------------------------------------------------------------
+
+Haze is a set of rules, CSS best practices, subtle styles and other
+enjoyable tidbits that I use to make sites look mega.
+
+* Version 1.0 *
+
+- First release! Wooo!
+
+* SECTION 1 - Default Styles
+* SECTION 2 - Haze.Grid | A Grid That Makes Sense
+
+-----------------------------------------------------------------*/
+
+
+
+
+/*/////////////////////////////////////////////////////////////////
+/// SECTION 1 - Default Styles ////////////////////////////////////
+/////////////////////////////////////////////////////////////////*/
+
+
+
+
+html {
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+	text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+
+	/* Natural box layout */
+
+	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	-o-box-sizing: border-box;
+  	-ms-box-sizing: border-box;
+  	box-sizing: border-box;
+}
+
+/*
+	Applies natural box layout to all elements, but allows components to change.
+	Forked from http://www.paulirish.com/2012/box-sizing-border-box-ftw/ 
+*/
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+  	-o-box-sizing: border-box;
+ 	-ms-box-sizing: border-box;
+ 	box-sizing: border-box;
+}
+
+body,div,h1,h2,h3,h4,h5,h6,p,ol,ul,li,form,header,footer,menu,nav,
+label,blockquote,article,figure,section {
+	margin:0;padding:0;border:0;
+}
+
+/* Buttons are now clickable. */
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+/* Checkboxes are now spaced properly. */
+
+input[type="checkbox"], input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Removed horrible default borders and focus outlines on text inputs. */
+
+input[type="text"] {
+	border:none;
+}
+
+input[type="text"]:focus {
+	outline:none;
+}
+
+/* <textarea>s have a habit of not scrolling. Now they do. */
+
+textarea {
+  overflow: auto;
+}
+
+
+
+
+/*/////////////////////////////////////////////////////////////////
+/// SECTION 2 - Haze.Grid | A Grid That Makes Sense ///////////////
+/////////////////////////////////////////////////////////////////*/
+
+
+
+
+.container {margin-right:auto;margin-left:auto;padding:15px;}
+
+.haze-12 {width:100%}
+.haze-11 {width:calc(100% / 12 * 11)}
+.haze-10 {width:calc(100% / 12 * 10)}
+.haze-9 {width:calc(100% / 4 * 3)}
+.haze-8 {width:calc(100% / 3 * 2)}
+.haze-7 {width:calc(100% / 12 * 7)}
+.haze-6 {width:50%}
+.haze-5 {width:calc(100% / 12 * 5)}
+.haze-4 {width:calc(100% / 3)}
+.haze-3 {width:calc(100% / 4)}
+.haze-2 {width:calc(100% / 6)}
+.haze-1 {width:calc(100% / 12)}
+
+.haze-1, .haze-2, .haze-3, .haze-4, .haze-5, .haze-6, .haze-7, .haze-8,
+.haze-9, .haze-10, .haze-11, .haze-12 {
+	margin-left:10px;margin-right:10px;margin-bottom:15px
+}
+
+
+
+
+
+
+
+
+
+
+
