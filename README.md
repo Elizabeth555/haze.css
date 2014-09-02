@@ -12,8 +12,8 @@ Version 1.0
 
 - First release! Wooo!
 
-SECTION 1 - Default Styles
+1| Default Styles
 ====
 
-SECTION 2 - Haze.Grid | A Grid That Makes Sense
+2| Haze.Grid
 ====
