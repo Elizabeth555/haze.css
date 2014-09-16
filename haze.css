@@ -105,8 +105,15 @@ textarea {
   overflow: auto;
 }
 
+/* Handy classes for making non-draggable text in web apps */
 
-
+.no-select {
+	-webkit-user-select: none; 
+	-moz-user-select: none;     
+	-ms-user-select: none;      
+	-o-user-select: none;
+	user-select: none;
+}
 
 /*/////////////////////////////////////////////////////////////////
 /// SECTION 2 - Haze.Grid | A Grid That Makes Sense ///////////////
@@ -132,7 +139,20 @@ textarea {
 
 .haze-1, .haze-2, .haze-3, .haze-4, .haze-5, .haze-6, .haze-7, .haze-8,
 .haze-9, .haze-10, .haze-11, .haze-12 {
-	margin-left:10px;margin-right:10px;margin-bottom:15px
+	position:relative;
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+	margin-bottom:15px;
+}
+
+@media (min-width: 768px) {
+	.haze-1, .haze-2, .haze-3, .haze-4, .haze-5, .haze-6, .haze-7, .haze-8,
+	.haze-9, .haze-10, .haze-11, .haze-12 {
+		width:100%;
+		padding-left:10px;
+		padding-right:10px;
+	}
 }
 
 /* Handy classes for floating divs. */
