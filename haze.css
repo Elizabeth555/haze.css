@@ -35,6 +35,10 @@ html {
 	-webkit-text-size-adjust:100%;
 	-ms-text-size-adjust:100%;
 
+	/* Make fonts look sexy in WebKit browsers */
+
+	-webkit-font-smoothing:antialiased;
+
 	/* Natural box layout */
 
 	-webkit-box-sizing: border-box;
