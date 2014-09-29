@@ -119,6 +119,16 @@ textarea {
 	user-select: none;
 }
 
+/* Handy class for fading CSS animations. 0.25s is optimum. */
+
+.fade {	
+	-webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+
 /*/////////////////////////////////////////////////////////////////
 /// SECTION 2 - Haze.Grid | A Grid That Makes Sense ///////////////
 /////////////////////////////////////////////////////////////////*/
