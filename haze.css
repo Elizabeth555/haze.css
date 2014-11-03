@@ -14,6 +14,12 @@ that I use to make sites look mega.
 * SECTION 1 - Default Styles
 * SECTION 2 - Haze.Grid | A Grid That Makes Sense
 
+* Version 1.1 *
+
+- CSS Fade
+- Tested .container width
+- Fix for grid width
+
 -----------------------------------------------------------------*/
 
 
@@ -135,8 +141,13 @@ textarea {
 
 
 
-
-.container {margin-right:auto;margin-left:auto;padding:15px;}
+.container {
+	margin-right:auto;
+	margin-left:auto;
+	max-width:1200px;
+	padding-left:5%;
+	padding-right:5%;
+}
 
 .haze-12 {width:100%}
 .haze-11 {width:calc(100% / 12 * 11)}
