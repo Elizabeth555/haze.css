@@ -10,5 +10,4 @@ Used for:
 http://gradquiz.com<br />
 http://wisergraduates.com<br />
 http://wearewiser.com<br />
-http://wisergrads.nl<br />
 http://latustraining.com<br />
